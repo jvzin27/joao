@@ -15,10 +15,9 @@ header {
     background-color: #333;
     padding: 20px;
     text-align: center;
-    font-size: 2.5em;
+    font-size: 2em;
     color: #f5f5f5;
     border-bottom: 3px solid #444;
-    text-transform: uppercase;
 }
 
 /* Seção de chamada */
@@ -28,20 +27,18 @@ header {
     align-items: center;
     background-color: #2c2c2c;
     padding: 40px;
-    margin: 40px 20px;
+    margin: 20px;
     border-radius: 10px;
-    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.3);
 }
 
 .chamada-texto h1 {
-    font-size: 2.5em;
+    font-size: 2em;
     margin-bottom: 10px;
     color: #fafafa;
-    text-align: center;
 }
 
 .chamada-texto p {
-    font-size: 1.2em;
+    font-size: 1em;
     color: #b0b0b0;
     margin-bottom: 20px;
 }
@@ -58,9 +55,9 @@ iframe {
 }
 
 .categoria h2 {
-    font-size: 2em;
+    font-size: 1.8em;
     color: #ffffff;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 .categoria-videos {
@@ -74,13 +71,12 @@ iframe {
     text-decoration: none;
     border-radius: 10px;
     overflow: hidden;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    transition: transform 0.3s ease;
     box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.4);
 }
 
 .categoria-videos a:hover {
     transform: scale(1.05);
-    box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.5);
 }
 
 .categoria-videos img {
@@ -88,20 +84,4 @@ iframe {
     height: 150px;
     object-fit: cover;
     border-radius: 10px;
-}
-
-/* Responsividade para telas menores */
-@media (max-width: 768px) {
-    .chamada-texto h1 {
-        font-size: 1.8em;
-    }
-
-    .categoria-videos img {
-        width: 200px;
-        height: 120px;
-    }
-
-    .categoria h2 {
-        font-size: 1.6em;
-    }
 }
